@@ -1,0 +1,9 @@
+.contactme {
+  &_container {border: 1px solid white;
+    @media(#{$break1}) {
+      height : 200vh;
+    }
+    @media (#{$break2}) {
+    }
+  }
+}

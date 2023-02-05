@@ -1,0 +1,7 @@
+.cards{
+  &_container{border: 1px solid blue;
+  @media(#{$break1}) {
+    flex-basis: 200px;
+  }
+  }
+}

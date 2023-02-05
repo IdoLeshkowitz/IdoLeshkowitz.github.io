@@ -1,0 +1,44 @@
+.greeting {align-items : center;display : flex;flex-basis : calc(var(--screen-height));font-weight : 900;
+  @media(#{$break1}) {flex-direction : column;justify-content : space-evenly;}
+
+  @media (#{$break2}) {
+  justify-content: space-evenly;padding-bottom: calc(var(--screen-height) * 0.1);
+  & div {
+    margin-top: calc(var(--screen-height) * 0.5);
+  }
+  }
+}
+
+.greeting_header {
+  @media (#{$break1}){
+    width : 80%;
+  }
+  color : var(--color1-light);display : inline-block;font-family : "Raleway", sans-serif;font-size : 10rem;line-height : 160%;@include slide-right-animation(var(--animation-delay-400), var(--animation-duration-1100));
+
+  &_handicon {
+    @include hand-wave-animation(var(--animation-delay-400), var(--animation-duration-900));display : inline-block;
+  }
+}
+
+.greeting button {
+  & span {margin-left : 0.5rem;}
+
+  &:hover {
+    & span {@include hands-shake-animation;}
+  }
+}
+
+
+
+
+@keyframes hand-wave {
+  0% {
+    transform : rotate(2deg);
+  }
+  20% {
+    transform : rotate(-10deg);
+  }
+  40% {
+    transform : rotate(10deg);
+  }
+}

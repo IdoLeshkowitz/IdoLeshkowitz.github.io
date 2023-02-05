@@ -1,0 +1,18 @@
+@keyframes hands-shake {
+  0% {
+    transform: translateY(0%);
+  }
+
+  28% {
+    transform: translateY(10%);
+  }
+
+  59% {
+    transform: translateY(-11%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+
+}

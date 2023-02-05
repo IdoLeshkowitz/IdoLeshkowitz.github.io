@@ -1,0 +1,25 @@
+:root {
+  /* base color 1*/
+  --base-color1: 1;
+  --color1-light: hsla(var(--base-color1), 0%, 99%, 1);
+  /* base color 2*/
+  --base-color2: 203;
+  --color2-dark: hsla(var(--base-color2), 58%, 65%, 1);
+  /* base color 3*/
+  --base-color3:180;
+  --color3-normal: hsla(var(--base-color3), 65%, 85%, 1);
+  /* base color 4*/
+  --base-color4:45;
+  --color4-light: hsla(var(--base-color4), 86%, 64%, 1);
+    /* base color 5*/
+  --base-color5: 22;
+    --color5-normal: hsla(var(--base-color5), 65%, 58%, 1);
+    /* base color 6 {NAVY BLUE}*/
+  --base-color6 : 240 ;
+    --color6-normal: hsla(var(--base-color6), 12%, 13%, 1);
+
+  /* linear-gradients */
+  --gradient-1 :linear-gradient(-225deg, var(--color6-normal) 0%, var(--color6-normal) 48%, var(--color6-normal) 100%);
+  --gradient-2 : linear-gradient(-225deg, var(--color4-light) 0%, var(--color2-dark) 48%, var(--color3-normal) 100%);
+  --gradient-3 : linear-gradient(-225deg, var(--color4-light) 0%, var(--color2-dark) 48%, var(--color6-normal) 100%);
+}

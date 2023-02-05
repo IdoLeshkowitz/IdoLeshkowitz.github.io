@@ -1,0 +1,8 @@
+@keyframes fade-in-blur {
+  from {
+    backdrop-filter : none;
+  }
+  to {
+    backdrop-filter : blur(1.5rem);
+  }
+}

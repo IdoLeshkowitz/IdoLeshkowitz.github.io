@@ -1,0 +1,10 @@
+:root{
+  --easeInOutCubic: cubic-bezier(0.645, 0, 0.355, 1);
+  --easeOutElastic: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --easeInOutQuint: cubic-bezier(0.83, 0, 0.17, 1);
+  --fastOutSlowIn: cubic-bezier(0.4, 0, 1, 1);
+  --InOut : cubic-bezier(0.65, 0.05, 0.36, 1);
+  --easeOutBack: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --easeInQuint:cubic-bezier(0.64, 0, 0.78, 0);
+  --easeOutCirc :cubic-bezier(0, 0.55, 0.45, 1);
+}

@@ -1,0 +1,19 @@
+@keyframes gradient-border-flush {
+  20% {
+    background-size : 200%;
+  }
+  40% {
+    background-size : 600%;
+    background-position: 200% 0;
+  }
+  60% {
+    background-size : 400%;
+    transform: scale(1.02);
+  }
+  80% {
+    background-size : 200%;
+  }
+  100% {
+    background-size : 100%;
+  }
+}

@@ -1,0 +1,67 @@
+@mixin slide-up-animation($delay, $duration) {
+  animation                 : slide-up;
+  animation-delay           : $delay;
+  animation-duration        : $duration;
+  animation-timing-function : var(--easeInOutQuint);
+}
+
+@mixin hands-shake-animation {
+  animation                 : hands-shake;
+  animation-delay           : var(--animation-delay-100);
+  animation-duration        : var(--animation-duration-600);
+  animation-iteration-count : 2;
+  animation-direction       : alternate-reverse;
+  animation-fill-mode       : both;
+}
+
+@mixin slide-right-animation($delay, $duration) {
+  animation                 : slide-right;
+  animation-delay           : $delay;
+  animation-duration        : $duration;
+  animation-timing-function : var(--easeOutBack);
+  animation-fill-mode       : backwards;
+}
+
+@mixin hand-wave-animation($delay, $duration) {
+  animation                 : hand-wave;
+  animation-delay           : $delay;
+  animation-duration        : $duration;
+  animation-timing-function : var(--easeInOutQuint);
+}
+
+@mixin blur-in-animation($delay, $duration) {
+  animation                 : blur-in;
+  animation-delay           : $delay;
+  animation-duration        : $duration;
+  animation-timing-function : var(--easeInOutQubic);
+}
+
+@mixin gradient-border-flush-animation($delay, $duration) {
+  animation                 : gradient-border-flush;
+  animation-delay           : $delay;
+  animation-duration        : $duration;
+  animation-timing-function : var(--easeInOutCubic);
+  animation-iteration-count : 1;
+}
+
+@mixin fade-in-blur-animation {
+  animation                 : fade-in-blur;
+  animation-duration        : var(--animation-duration-300);
+  animation-timing-function : var(--easeOutCircle);
+  animation-delay           : var(--animation-delay-200);
+  animation-fill-mode       : forwards;
+}
+
+@mixin fade-out-blur-animation {
+  animation                 : fade-out-blur;
+  animation-duration        : var(--animation-duration-300);
+  animation-timing-function : var(--easeInOutCubic);
+  animation-delay           : 0s;
+}
+
+//HAMBURGER ANIMATION
+$circle-rotate-animation : "circle-rotate 2.2s linear infinite";
+$fade-in-animation       : "fade-in 2.5s ease-in-out";
+
+
+
