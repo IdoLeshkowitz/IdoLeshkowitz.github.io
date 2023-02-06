@@ -1,0 +1,11 @@
+@keyframes hand-wave {
+  0% {
+    transform : rotate(2deg);
+  }
+  20% {
+    transform : rotate(-10deg);
+  }
+  40% {
+    transform : rotate(10deg);
+  }
+}

@@ -1,10 +1,5 @@
-.main {background-image : var(--gradient-1);display : flex;flex-direction: column;
-  @media(#{$break1}) {
-
-  }
-  @media (#{$break2}) {
-      --font-size : 10px;
-  }
+.main {
+  background-image : var(--gradient-1);display : flex;flex-direction : column;
 }
 
 
